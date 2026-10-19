@@ -1,4 +1,4 @@
-# PDF2ZH Agent Translate
+# PDF2ZH Skill
 
 **用当前 Agent 聊天模型翻译本地英文论文 PDF，并生成中文译文和中英双语 PDF。**
 
@@ -14,7 +14,7 @@ This Codex skill translates local research-paper PDFs with the active chat model
 ## 安装到 Codex
 
 ```sh
-git clone https://github.com/gaffeyn03/pdf2zh-agent-translate.git "${CODEX_HOME:-$HOME/.codex}/skills/pdf2zh-agent-translate"
+git clone https://github.com/gaffeyn03/pdf2zh-skill.git "${CODEX_HOME:-$HOME/.codex}/skills/pdf2zh-agent-translate"
 ```
 
 安装后在 Codex 中使用 `$pdf2zh-agent-translate`，或直接请求翻译一篇论文。也可以将仓库复制到 Agent 配置的 skills 目录。
@@ -42,6 +42,10 @@ py -3.12 scripts/run.py setup --json
 - 面向可选中文字的 PDF；扫描件/OCR 不在此流程范围内。
 - 图表内部嵌入的文字不会单独翻译。复杂版面仍需检查，自动校验不能保证与原版完全一致。
 - 不要把论文原文、任务目录或生成的 PDF 提交到代码仓库。仓库 `.gitignore` 已屏蔽 PDF 和常见任务产物。
+
+## 上游致谢
+
+本项目的分批 PDF 提取、翻译和回填工作流参考并改编自 [AIKONG2024/paper-translate-agent-skill](https://github.com/AIKONG2024/paper-translate-agent-skill)，该上游项目采用 MIT License。改编范围和其他依赖说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
 
 ## 许可
 

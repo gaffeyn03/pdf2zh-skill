@@ -4,7 +4,7 @@ This repository does not bundle third-party runtime packages, model assets, user
 
 ## AIKONG PDF translation skill
 
-The `pdf-translate/` workflow documentation adapts instruction patterns from the AIKONG PDF translation skill, which is available under the MIT License. This repository's portable active-model workflow and scripts are separately licensed under this repository's MIT License. Preserve this attribution when redistributing adapted instruction material.
+The batch extraction, translation, and write-back workflow adapts material from [AIKONG2024/paper-translate-agent-skill](https://github.com/AIKONG2024/paper-translate-agent-skill), which is available under the MIT License. This repository's portable active-model workflow and scripts are separately licensed under this repository's MIT License. Preserve this attribution when redistributing adapted material.
 
 ## PDFMathTranslate / pdf2zh
 
