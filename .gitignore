@@ -1,0 +1,20 @@
+# Local environment
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+
+# Source papers and generated translation data
+*.pdf
+source.pdf
+output/
+batches/
+responses/
+translations/
+manifest.json
+units.json
+context.json
+validation.json

@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文翻译"
+  short_description: "由当前聊天模型翻译英文论文，保留公式与图片并生成中文及双语 PDF"
+  default_prompt: "使用 $pdf2zh-agent-translate 将这篇论文翻译为中文，生成中文及中英双语 PDF。"
